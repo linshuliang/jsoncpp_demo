@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Visual Studio 16 2019 Win64",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\CMakeBuilds\\build\\${name}",
+      "installRoot": "${projectDir}\\CMakeBuilds\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Windows",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Release",
+          "type": "STRING"
+        },
+        {
+          "name": "BUILD_DEMO",
+          "value": "ON",
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
+}
